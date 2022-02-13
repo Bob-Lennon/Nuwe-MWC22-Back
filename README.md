@@ -40,4 +40,4 @@ Adding a developer to the list.
 #### Notes
 For the 2nd task, the json file is added to the project directory to automatically insert the data into the local MySQL database of the current local machine to the next URL.
 
-> localhost:3306/mwc22
+> localhost:3306/mwc22, user: root & password: 1234
