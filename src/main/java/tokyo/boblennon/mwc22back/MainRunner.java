@@ -96,9 +96,9 @@ public class MainRunner {
         try {
             // Auto-generated UUID
             String id = UUID.randomUUID().toString();
-
+            sc.nextLine();
             System.out.println("What is the name of the Developer?");
-            String name = sc.next();
+            String name = sc.nextLine();
 
             System.out.println("In which category is he participating?    ( Front, Back, Mobile, Data )");
             DevCategoryEnum category = DevCategoryEnum.valueOf(sc.next());
@@ -107,16 +107,16 @@ public class MainRunner {
             String date = "";
             switch (sc.nextInt()) {
                 case 1:
-                date = "Mar 1";
+                date = "Mar 1, 2022";
                 break;
                 case 2:
-                date = "Mar 2";
+                date = "Mar 2, 2022";
                 break;
                 case 3:
-                date = "Mar 3";
+                date = "Mar 3, 2022";
                 break;
                 case 28:
-                date = "Feb 28";
+                date = "Feb 28, 2022";
                 break;
                 default:
                     System.out.println("ERROR !!!    Try again selecting one of the days listed.");
